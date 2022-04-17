@@ -19,7 +19,7 @@ This table will be updated as either the dependencies either get updated or new 
 
 
 
-#License/Copyright
+# __**License/Copyright**__
 
 License: MIT 
 See the License file for more information.

@@ -9,7 +9,7 @@ window_surface = pygame.display.set_mode((800, 600))
 background = pygame.Surface((800, 600))
 background.fill(pygame.Color('#000000'))
 
-manager = pygame_gui.UIManager((800, 600), 'theme1.json')
+manager = pygame_gui.UIManager((800, 600), 'game/theme1.json')
 
 hello_button = pygame_gui.elements.UIButton(relative_rect=pygame.Rect((350, 275), (100, 50)),
                                             text='Say Hello',

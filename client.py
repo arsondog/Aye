@@ -2,6 +2,7 @@
 """ Template for importing files """
 try:
     import ___________
+
     print("---------")
     print("File has been imported")
     print("File Type: ")
@@ -22,6 +23,7 @@ exist. """
 """ Template for importing files """
 try:
     import ___________
+
     print("File has been imported")
     print("File Type: ")
     print("File Name:")
@@ -39,22 +41,24 @@ except ImportError:
 exist. """
 # --------------------------------------------------------------- #
 try:
-    import object_id
+    import game
+
     print("File has been imported")
-    print("File Type: Python File (.py) ")
-    print("File Name: object_id")
-    print("Folder Name: Main Module")
+    print("File Type: Directory ")
+    print("File Name: N/A ")
+    print("Folder Name: Game")
     print("---------")
 
 except ImportError:
     print("Error: File failed to import")
     print("File Type: Python file (.py) ")
     print("File Name: object_id")
-    print("Folder Name: Main Module")
+    print("Folder Name: Game")
     print("---------")
 # --------------------------------------------------------------- #
 try:
-    import clientexe
+    from game import object_id
+
     print("File has been imported")
     print("File Type: Python File (.py)")
     print("File Name: clientexe")
@@ -67,4 +71,21 @@ except ImportError:
     print("File Name: clientexe")
     print("Folder Name: Main Module ")
     print("---------")
+# --------------------------------------------------------------- #
 
+try:
+    from game import clientexe
+
+    print("File has been imported")
+    print("File Type: Python File (.py)")
+    print("File Name: clientexe")
+    print("Folder Name: Main Module")
+    print("---------")
+
+except ImportError:
+    print("Error: File failed to import")
+    print("File Type: Python File (.py) ")
+    print("File Name: clientexe")
+    print("Folder Name: Main Module ")
+    print("---------")
+# --------------------------------------------------------------- #

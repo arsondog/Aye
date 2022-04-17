@@ -2,7 +2,7 @@ import pygame
 from pygame_gui.core import ObjectID
 from pygame_gui.elements import UIButton
 
-from clientexe import manager
+from game.clientexe import manager
 
 ...  # other code ommitted here -
 # see quick start guide for how to get up and running with a single button

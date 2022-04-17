@@ -3,7 +3,7 @@ Ayo everyone. This is The OctoPotatoBoi Project. This project is my first game t
 
 
 
-# __**Dependences**__
+# __**Dependencies**__
 
 This table will be updated as either the dependencies either get updated or new dependencies get added. 
 

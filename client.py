@@ -74,7 +74,6 @@ except ImportError:
 # --------------------------------------------------------------- #
 try:
     from game import clientexe
-    print("---------")
     print("File has been imported")
     print("File Type: Python File (.py)")
     print("File Name: clientexe")
@@ -82,7 +81,6 @@ try:
     print("---------")
 
 except ImportError:
-    print("---------")
     print("Error: File failed to import")
     print("File Type: Python File (.py) ")
     print("File Name: clientexe")

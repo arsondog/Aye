@@ -58,7 +58,6 @@ except ImportError:
 # --------------------------------------------------------------- #
 try:
     from game import object_id
-
     print("File has been imported")
     print("File Type: Python File (.py)")
     print("File Name: clientexe")
@@ -72,10 +71,8 @@ except ImportError:
     print("Folder Name: Main Module ")
     print("---------")
 # --------------------------------------------------------------- #
-
 try:
     from game import clientexe
-
     print("File has been imported")
     print("File Type: Python File (.py)")
     print("File Name: clientexe")

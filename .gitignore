@@ -2,4 +2,5 @@
 *.pyc
 /references/variables/variables_pg1.py
 /venv/
-.idea 
+.idea
+*.iml

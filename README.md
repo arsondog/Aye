@@ -1,5 +1,5 @@
 # Description 
-Ayo everyone. This is The Aye Project. This project is my first game that I, Arsondog, created.
+Ayo everyone. This is The Aye Project. This project is my first game that I, Arsondog, am creating.
 
 
 

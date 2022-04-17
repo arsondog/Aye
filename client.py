@@ -1,4 +1,4 @@
-# --------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
 """ Template for importing files """
 try:
     import ___________
@@ -19,7 +19,7 @@ except ImportError:
     print("---------")
 """ File is supposed to return "Error: File failed to import" because the import file is a placeholder and doesn't 
 exist. """
-# --------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
 """ Template for importing files """
 try:
     import ___________
@@ -39,7 +39,7 @@ except ImportError:
 
 """ File is supposed to return "Error: File failed to import" because the import file is a placeholder and doesn't 
 exist. """
-# --------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
 try:
     import game
     print("File has been imported")
@@ -54,7 +54,7 @@ except ImportError:
     print("File Name: object_id")
     print("Folder Name: Game")
     print("---------")
-# --------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
 try:
     from game import object_id
     print("---------")
@@ -71,7 +71,7 @@ except ImportError:
     print("File Name: clientexe")
     print("Folder Name: Main Module ")
     print("---------")
-# --------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
 try:
     from game import clientexe
     print("File has been imported")
@@ -86,4 +86,4 @@ except ImportError:
     print("File Name: clientexe")
     print("Folder Name: Main Module ")
     print("---------")
-# --------------------------------------------------------------- #
+# ---------------------------------------------------------------- #
